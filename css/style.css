@@ -1,0 +1,25 @@
+[class*="col-"] {
+    background-color: #1a43b4;
+    text-align: center;
+    height: 200px;
+    line-height: 200px;
+    border: 1px solid white;
+    color: white;
+  }
+  
+  [class*="col-"] .container [class*="col-"]{
+    height: 190px;
+    line-height: 190px;
+    background: #0db113;
+    color: white;
+    position: relative;
+  }
+  
+  .center{
+    line-height: normal;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+  }
+  
